@@ -42,9 +42,9 @@ override func viewDidLoad() {
 
     // fetch location or an error
     if let loc = location {
-      println(location)
+      print(loc)
     } else if let err = error {
-      println(err.localizedDescription)
+      print(err.localizedDescription)
     }
     self.manager = nil
   }
